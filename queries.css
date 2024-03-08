@@ -1,0 +1,57 @@
+@media(max-width:75em){
+    html{
+        font-size: 56.25%;
+    }
+    .scondary-heading{
+        font-size: 3.6rem;
+    }
+    .gallery{
+        gap: 1.2rem;
+    }
+}
+@media(max-width:59em){
+    html{
+        font-size: 50%;
+    }
+}
+@media(max-width:34em){
+    .section-hero{
+     
+        
+    }
+    .scondary-heading{
+        font-size: 3rem;
+    }
+    .hero-img{
+        height: 18rem;
+        width: 18rem;
+    }
+    .heading-imgs img{
+        height: 4.4rem;
+        width: 4.4rem;
+    }
+    .introduction-text {
+        font-size: 1.8rem;
+    
+    }
+    .gallery{
+        gap: 0.8rem;
+    }
+    .cta{
+        grid-template-columns: 1fr;
+    }
+    .cta-img-box{
+        grid-row: 1;
+        height: 32rem;
+    }
+    .cta-text-box{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 2.4rem;
+    }
+    .cta-text:link,.cta-text:visited{
+        font-size: 3.2rem;
+    }
+}
